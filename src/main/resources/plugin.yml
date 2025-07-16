@@ -1,0 +1,10 @@
+name: Other_Clear_Lag
+version: '1.0-SNAPSHOT'
+main: org.little100.other_Clear_Lag.Other_Clear_Lag
+api-version: '1.16'
+authors: [ Little_100 ]
+website: little100.top
+commands:
+  ocl:
+    description: "Other_Clear_Lag command"
+    permission: "otherclearlag.admin"

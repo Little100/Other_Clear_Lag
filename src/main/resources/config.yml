@@ -1,0 +1,30 @@
+# 清理间隔时间 (秒)
+clear-interval: 3600
+
+# 是否清理没有生物/玩家乘坐的船和矿车
+remove-vehicles: false
+
+# 在清理前多少秒发出警告 (例如: [30, 10, 5, 4, 3, 2, 1])
+warning-times:
+- 30
+- 10
+- 5
+- 4
+- 3
+- 2
+- 1
+
+# 清理前的警告消息, [time] 将被替换为剩余时间
+warning-message: "&c[扫地大妈] &a将在 &e[time] &a秒后清理掉落物!"
+
+# 清理完成后的消息, [count] 将被替换为清理的物品数量
+clear-message: "&c[扫地大妈] &a成功清理了 &e[count] &a个掉落物和 &e[vehicles] &a个载具!"
+
+# 在清理前多少秒开始拦截玩家丢弃物品
+intercept-time: 10
+
+# 拦截玩家丢弃物品时的提示消息, [time] 将被替换为剩余时间
+intercept-message: "&c[扫地大妈] &a服务器将在 &e[time] &a秒后清理掉落物, 确定要丢弃吗? 再次丢弃将不再提示."
+
+# 是否开启Debug模式
+debug: false
